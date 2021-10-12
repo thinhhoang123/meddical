@@ -1,0 +1,43 @@
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0 80px;
+    p{
+        @include caption;
+        color: #159EEC;
+    }
+    h3{
+        @include display1;
+        color: #1F2B6C;
+    }
+}
+
+
+
+.contact-content{
+    background-color: #BFD2F8;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    h4{
+        @include caption;
+        font-size: 1.3rem;
+        margin: 30px 0 20px;
+        color: #1F2B6C;
+    }
+    p{
+        @include small;
+        margin: 20px 0;
+        font-size: 1rem;
+    }
+}
+.contact-content:hover{
+    background-color: #1F2B6C;
+    color: white;
+    h4{color: white}
+}

@@ -1100,7 +1100,7 @@
             </div>
         </section>
         <!-- Contact -->
-        <section>
+        <section class="contact">
             <div class="container">
                 <div class="get-in-touch">
                     <div class="get-in-touch-header">
@@ -1109,20 +1109,20 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <div class="emergency">
-                            <div class="emergency-icon"></div>
+                    <div class="col-sm">
+                        <div class="emergency contact-content">
                             <div class="emergency-content">
+                                <i class="fal fa-phone-volume fa-3x"></i>
                                 <h4>EMERGENCY</h4>
                                 <p>(237) 681-812-255</p>
                                 <p>(237) 666-331-894</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="location">
-                            <div class="location-icon "></div>
+                    <div class="col-sm">
+                        <div class="location contact-content">
                             <div class="location-content">
+                                <i class="fal fa-map-marker-alt fa-3x"></i>
                                 <h4>LOCATION</h4>
                                 <p>0123 Some place</p>
                                 <p>9876 Some country</p>
@@ -1130,9 +1130,9 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="email">
-                            <div class="email-icon "></div>
+                        <div class="email contact-content">
                             <div class="email-content">
+                                <i class="fal fa-envelope fa-3x"></i>
                                 <h4>EMAIL</h4>
                                 <p>fildineeesoe@gmil.com</p>
                                 <p>myebstudios@gmail.com</p>
@@ -1140,9 +1140,9 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="working-hour">
-                            <div class="working-hour-icon"></div>
+                        <div class="working-hour contact-content">
                             <div class="working-hour-content">
+                                <i class="fal fa-clock fa-3x"></i>
                                 <h4>WORKING HOURS</h4>
                                 <p>Mon-Sat 09:00-20:00</p>
                                 <p>Sunday Emergency only</p>
@@ -1154,66 +1154,83 @@
         </section>
     </main>
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h2>MEDDICAL</h2>
+                </div>
+                <div class="col-2">
+                    <h6>Important Links</h6>
+                </div>
+                <div class="col-3">
+                    <h6>Contact us</h6>
+                </div>
+                <div class="col-4">
+                    <h6>Newsletter</>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p>Leading the Way in Medical Execellence, Trusted Care.</p>
+                </div>
+                <div class="col-2">
+                    <ul>
+                        <li>
+                            <p>Appointment</p>
+                        </li>
+                        <li>
+                            <p>Doctors</p>
+                        </li>
+                        <li>
+                            <p>Services</p>
+                        </li>
+                        <li>
+                            <p>About us</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>
+                            <p>Call: (237) 681-812-255</p>
+                        </li>
+                        <li>
+                            <p>Email: abc@gmail.com</p>
+                        </li>
+                        <li>
+                            <p>Address: 0123 place</p>
+                        </li>
+                        <li>
+                            <p>Some country</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <input type="text" placeholder="Enter your email address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="bar-space"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-9">
+                    <p>© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
+                </div>
+                <div class="col-3">
+                    <div class="social">
+                        <div>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
     </footer>
-    <script>
-        // searching icon display
-        var searchIcon = document.getElementById("search-icon");
-        searchIcon.addEventListener('click', () => document.getElementById('search').classList.toggle('show-text'));
-
-        // our servieces
-        function openTab(event, tabName) {
-            var tabContent = document.getElementsByClassName('tabcontent');
-            var tabLinks = document.getElementsByClassName('tablinks');
-            for (let element of tabContent) {
-                element.style.display = 'none';
-            }
-            for (let element of tabLinks) {
-                element.className = element.className.replace(' active', '');
-            }
-            document.getElementById(tabName).style.display = "inline-block";
-            event.currentTarget.className += " active";
-        }
-        document.getElementById("defaultOpen").click();
-
-        // out doctor
-        var slideIndex = 1;
-        currentSlide(slideIndex);
-
-        function currentSlide(numberSlide) {
-            var dots = document.getElementsByClassName('dot');
-            var doctors = document.getElementsByClassName('doctor-file');
-            for (let element of doctors) {
-                element.style.display = 'none';
-            }
-
-            for (let element of dots) {
-                element.className = element.className.replace(' dot-active', '');
-            }
-
-            doctors[numberSlide - 1].style.display = 'block';
-            dots[numberSlide - 1].className += " dot-active";
-        }
-
-        // news
-        var newsIndex = 1;
-        currentNews(newsIndex);
-
-        function currentNews(numberNews) {
-            var dotsNews = document.getElementsByClassName('dot-news');
-            var News = document.getElementsByClassName('news-content-4');
-            for (let element of News) {
-                element.style.display = 'none';
-            }
-
-            for (let element of dotsNews) {
-                element.className = element.className.replace(' dot-news-active', '');
-            }
-
-            News[numberNews - 1].style.display = 'block';
-            dotsNews[numberNews - 1].className += ' dot-news-active';
-        }
-    </script>
+    
+    <script src="/app/js/home.js"></script>
 </body>
 
 </html>

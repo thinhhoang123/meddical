@@ -472,7 +472,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 80px 0;
+  margin: 150px 0 80px;
 }
 
 .specialties .specialties-head p {
@@ -667,7 +667,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 70px 0;
+  margin: 150px 0 80px;
 }
 
 .our-doctors .our-doctors-head p {
@@ -798,7 +798,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 70px 0;
+  margin: 150px 0 80px;
 }
 
 .news .news-head p {
@@ -891,7 +891,7 @@ body {
   cursor: pointer;
   height: 20px;
   width: 20px;
-  margin: 0 2px;
+  margin: 20px 2px;
   background-color: #BFD2F8;
   border-radius: 50%;
   display: inline-block;
@@ -902,5 +902,177 @@ body {
 .news .news-content .dot-news-content .dot-news-active,
 .news .news-content .dot-news-content .dot-news:hover {
   background-color: #1F2B6C;
+}
+
+.get-in-touch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 150px 0 80px;
+}
+
+.get-in-touch p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159EEC;
+}
+
+.get-in-touch h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #1F2B6C;
+}
+
+.contact-content {
+  background-color: #BFD2F8;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.contact-content h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin: 30px 0 20px;
+  color: #1F2B6C;
+}
+
+.contact-content p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 16px;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.contact-content:hover {
+  background-color: #1F2B6C;
+  color: white;
+}
+
+.contact-content:hover h4 {
+  color: white;
+}
+
+footer {
+  background-color: #1F2B6C;
+  color: white;
+  margin-top: 100px;
+}
+
+footer .container {
+  padding: 60px 0;
+}
+
+footer h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #BFD2F8;
+  margin-bottom: 30px;
+}
+
+footer h6 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer p {
+  margin: 0;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+  font-weight: 50;
+}
+
+footer .bar-space {
+  height: 0.7px;
+  background-color: white;
+  margin: 30px 0;
+}
+
+footer .social {
+  float: right;
+}
+
+footer .social .fab {
+  color: #1F2B6C;
+  background-color: #BFD2F8;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 8px;
+  border-radius: 100%;
+}
+
+footer .social .fa-facebook-f {
+  padding-left: 10px;
+}
+
+footer input[type=text] {
+  background-color: #BFD2F8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+footer ::-webkit-input-placeholder {
+  color: #1F2B6C;
+}
+
+footer :-ms-input-placeholder {
+  color: #1F2B6C;
+}
+
+footer ::-ms-input-placeholder {
+  color: #1F2B6C;
+}
+
+footer ::placeholder {
+  color: #1F2B6C;
 }
 /*# sourceMappingURL=home.css.map */
