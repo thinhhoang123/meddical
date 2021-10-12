@@ -1,0 +1,81 @@
+.hero {
+    #hero-img {
+        position: relative;
+        background: url('/app/img/hero/Physician.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 850px;
+    }
+
+    .hero-text {
+        height: 850px;
+        display: flex;
+        align-items: center;
+
+        .hero-caption {
+            @include caption;
+            font-size: 1.7rem;
+            color: #159EEC;
+        }
+
+        .hero-head {
+            margin: 30px 0;
+            @include display1;
+            font-size: 5rem;
+            width: 900px;
+            line-height: 6rem;
+            color: #1F2B6C;
+        }
+
+        button {
+            @include buttonText;
+            border: none;
+            width: auto;
+            padding: 19px 35px;
+            background: #BFD2F8;
+            border-radius: 50px;
+        }
+    }
+
+    .booking {
+        position: absolute;
+        top: 93%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .booking-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+
+            p {
+                margin: 0;
+                @include body;
+            }
+        }
+
+        .booking-1,
+        .booking-2,
+        .booking-3 {
+            padding: 30px 25px;
+            color: white;
+            border-radius: 9px;
+        }
+
+        .booking-1 {
+            background-color: #1F2B6C;
+        }
+
+        .booking-2 {
+            background-color: #BFD2F8;
+            color: #1F2B6C;
+        }
+
+        .booking-3 {
+            background-color: #159EEC;
+        }
+    }
+
+}

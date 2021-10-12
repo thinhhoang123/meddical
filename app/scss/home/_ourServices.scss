@@ -1,0 +1,103 @@
+.our-services {
+    .title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+
+        p {
+            @include caption;
+            color: #159EEC
+        }
+
+        h3 {
+            @include display1;
+            color: #1F2B6C;
+        }
+    }
+
+    .tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 1px solid #c7c4c4;
+        border-radius: 5px;
+
+        button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            height: 120px;
+
+            background-color: white;
+            border: none;
+            border-radius: 5px 5px 0 0;
+
+            .fas,
+            .fad {
+                color: #159EEC;
+            }
+
+            p {
+                @include body;
+            }
+        }
+
+        .view-all {
+            @include body;
+            height: 50px;
+            background-color: #1F2B6C;
+            color: white;
+            border-radius: 0 0 5px 5px;
+        }
+
+        button:hover,
+        .active {
+            background-color: #1F2B6C;
+            color: white;
+
+            .fas,
+            .fad {
+                color: white;
+            }
+        }
+    }
+
+
+    .tabcontent {
+        ul {
+            list-style: none;
+            margin: 20px 0;
+
+            li {
+                @include body2;
+            }
+
+            li::before {
+                content: '●';
+                color: #159EEC;
+                margin-right: 10px;
+            }
+        }
+
+        h3 {
+            @include title;
+            margin: 20px 0;
+        }
+
+        p {
+            margin: 20px 0;
+            @include body2;
+        }
+
+        img {
+            margin: 20px 0;
+        }
+    }
+
+}

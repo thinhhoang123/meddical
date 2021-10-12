@@ -1,0 +1,104 @@
+.our-doctors {
+    margin-top: 60px;
+
+    .our-doctors-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 70px 0;
+
+        p {
+            @include caption;
+            color: #159EEC;
+        }
+
+        h3 {
+            @include display1;
+            color: #1F2B6C;
+        }
+    }
+
+    .card {
+        .card-content {
+            background-color: #BFD2F8;
+            color: #1F2B6C;
+            height: 142px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .name,
+            .social {
+                text-align: center;
+            }
+
+            .name {
+                p {
+                    @include body2;
+                    margin: 0;
+                }
+
+                h4 {
+                    @include caption;
+                    margin: 10px 0;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .social {
+                .fab {
+                    color: #BFD2F8;
+                    background-color: #1F2B6C;
+                    margin: 10px;
+                    width: 30px;
+                    height: 30px;
+                    padding-top: 7px;
+                    border-radius: 100%;
+
+                }
+
+
+            }
+
+        }
+
+        .view-profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: #1F2B6C;
+            border-radius: 0px 0px 5px 5px;
+
+            p {
+                color: #BFD2F8;
+                @include body;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .dot-content {
+        text-align: center;
+        margin: 20px 0;
+
+        .dot {
+            cursor: pointer;
+            height: 20px;
+            width: 20px;
+            margin: 0 2px;
+            background-color: #BFD2F8;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .dot-active,
+        .dot:hover {
+            background-color: #1F2B6C;
+        }
+    }
+
+}

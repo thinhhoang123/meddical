@@ -1,0 +1,12 @@
+.doctor-img {
+    position: relative;
+    height: 450px;
+
+    .black-doctor,
+    .frame {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

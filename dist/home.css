@@ -1,0 +1,906 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first-header .row {
+  height: 80px;
+}
+
+.first-header .logo-medical {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  margin: 0;
+}
+
+.first-header .title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  margin: 0;
+}
+
+.first-header .title1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #159EEC;
+  margin: 0;
+}
+
+.first-header .icon {
+  padding: 0;
+}
+
+.first-header .col-10 {
+  padding-left: 5px;
+}
+
+.second-header {
+  background-color: #1F2B6C;
+}
+
+.second-header .row {
+  height: 80px;
+}
+
+.second-header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.second-header nav li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.second-header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.second-header nav li a:hover {
+  color: #BFD2F8;
+}
+
+.second-header nav li .active {
+  color: #BFD2F8;
+}
+
+.second-header .appointment {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16px;
+  background: #BFD2F8;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 20px;
+  text-align: center;
+}
+
+.second-header .searching {
+  text-align: right;
+}
+
+.second-header .searching input[type=text] {
+  border: none;
+  border-radius: 50px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+  padding: 5px;
+  width: 100%;
+}
+
+.second-header .searching .show-text {
+  display: none;
+}
+
+.second-header .searching #search-icon {
+  cursor: pointer;
+}
+
+.hero #hero-img {
+  position: relative;
+  background: url("/app/img/hero/Physician.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+}
+
+.hero .hero-text {
+  height: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-text .hero-caption {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: #159EEC;
+}
+
+.hero .hero-text .hero-head {
+  margin: 30px 0;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  font-size: 5rem;
+  width: 900px;
+  line-height: 6rem;
+  color: #1F2B6C;
+}
+
+.hero .hero-text button {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16px;
+  border: none;
+  width: auto;
+  padding: 19px 35px;
+  background: #BFD2F8;
+  border-radius: 50px;
+}
+
+.hero .booking {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.hero .booking .booking-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+
+.hero .booking .booking-section p {
+  margin: 0;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.hero .booking .booking-1,
+.hero .booking .booking-2,
+.hero .booking .booking-3 {
+  padding: 30px 25px;
+  color: white;
+  border-radius: 9px;
+}
+
+.hero .booking .booking-1 {
+  background-color: #1F2B6C;
+}
+
+.hero .booking .booking-2 {
+  background-color: #BFD2F8;
+  color: #1F2B6C;
+}
+
+.hero .booking .booking-3 {
+  background-color: #159EEC;
+}
+
+.welcome-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.welcome-page .welcome {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159EEC;
+}
+
+.welcome-page h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #1F2B6C;
+  margin: 20px;
+}
+
+.welcome-page .title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.welcome-page a {
+  text-decoration: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #159EEC;
+}
+
+.welcome-page a .far {
+  color: black;
+}
+
+.doctor-img {
+  position: relative;
+  height: 450px;
+}
+
+.doctor-img .black-doctor,
+.doctor-img .frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.our-services .title {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+.our-services .title p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159EEC;
+}
+
+.our-services .title h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #1F2B6C;
+}
+
+.our-services .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #c7c4c4;
+  border-radius: 5px;
+}
+
+.our-services .tab button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border: none;
+  border-radius: 5px 5px 0 0;
+}
+
+.our-services .tab button .fas,
+.our-services .tab button .fad {
+  color: #159EEC;
+}
+
+.our-services .tab button p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.our-services .tab .view-all {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  height: 50px;
+  background-color: #1F2B6C;
+  color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.our-services .tab button:hover,
+.our-services .tab .active {
+  background-color: #1F2B6C;
+  color: white;
+}
+
+.our-services .tab button:hover .fas,
+.our-services .tab button:hover .fad,
+.our-services .tab .active .fas,
+.our-services .tab .active .fad {
+  color: white;
+}
+
+.our-services .tabcontent ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.our-services .tabcontent ul li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.our-services .tabcontent ul li::before {
+  content: '●';
+  color: #159EEC;
+  margin-right: 10px;
+}
+
+.our-services .tabcontent h3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.our-services .tabcontent p {
+  margin: 20px 0;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.our-services .tabcontent img {
+  margin: 20px 0;
+}
+
+.specialties .specialties-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 80px 0;
+}
+
+.specialties .specialties-head p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159EEC;
+}
+
+.specialties .specialties-head h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #1F2B6C;
+}
+
+.specialties .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.specialties .content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 252px;
+  border: 1px solid #e9e9e9;
+  color: #159EEC;
+}
+
+.specialties .content-item p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.specialties .content-item:hover {
+  background-color: #1F2B6C;
+  border-radius: 10px;
+  color: white;
+}
+
+.specialties .content-item:hover p {
+  color: white;
+}
+
+.booking-appointment {
+  margin-top: 130px;
+}
+
+.booking-appointment #filter {
+  position: absolute;
+  z-index: 2;
+  background: #FCFEFE;
+  opacity: 0.8;
+  width: 100%;
+  height: 573px;
+}
+
+.booking-appointment #booking-img {
+  position: relative;
+  z-index: 1;
+  background-image: url("/app/img/hero/Rectangle 33.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 573px;
+}
+
+.booking-appointment .content {
+  position: relative;
+  z-index: 3;
+  height: 573px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.booking-appointment .content h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #159EEC;
+}
+
+.booking-appointment .content p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  margin-right: 100px;
+}
+
+.booking-appointment .content form .form-items {
+  background-color: #1F2B6C;
+  height: 50px;
+  color: white;
+  border: 1px solid #b3b3b3;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.booking-appointment .content form ::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.booking-appointment .content form :-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.booking-appointment .content form ::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.booking-appointment .content form ::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.booking-appointment .content form .text-area {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  height: 200px;
+  background-color: #1F2B6C;
+  color: white;
+}
+
+.booking-appointment .content form button {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 16px;
+  background-color: #BFD2F8;
+  height: 50px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.our-doctors {
+  margin-top: 60px;
+}
+
+.our-doctors .our-doctors-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.our-doctors .our-doctors-head p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159EEC;
+}
+
+.our-doctors .our-doctors-head h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #1F2B6C;
+}
+
+.our-doctors .card .card-content {
+  background-color: #BFD2F8;
+  color: #1F2B6C;
+  height: 142px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-doctors .card .card-content .name,
+.our-doctors .card .card-content .social {
+  text-align: center;
+}
+
+.our-doctors .card .card-content .name p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+  margin: 0;
+}
+
+.our-doctors .card .card-content .name h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.our-doctors .card .card-content .social .fab {
+  color: #BFD2F8;
+  background-color: #1F2B6C;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  border-radius: 100%;
+}
+
+.our-doctors .card .view-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1F2B6C;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.our-doctors .card .view-profile p {
+  color: #BFD2F8;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  margin: 10px 0;
+}
+
+.our-doctors .dot-content {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.our-doctors .dot-content .dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #BFD2F8;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.our-doctors .dot-content .dot-active,
+.our-doctors .dot-content .dot:hover {
+  background-color: #1F2B6C;
+}
+
+.news .news-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.news .news-head p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159EEC;
+}
+
+.news .news-head h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 42px;
+  color: #1F2B6C;
+}
+
+.news .news-content .news-reacts,
+.news .news-content .news-sees,
+.news .news-content .news-likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.news .news-content .news-reacts p,
+.news .news-content .news-sees p,
+.news .news-content .news-likes p {
+  margin: 0;
+}
+
+.news .news-content .news-content-4 .col:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.news .news-content .news-time p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #159EEC;
+  margin: 0 0 5px 20px;
+}
+
+.news .news-content .news-title h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 140%;
+  font-size: 1.7rem;
+  margin: 0 0 20px 20px;
+}
+
+.news .news-content .news-reacts {
+  margin: 0 0 2px 20px;
+}
+
+.news .news-content .news-reacts .far {
+  color: #526AE9;
+}
+
+.news .news-content .news-reacts .fal {
+  color: #E2315C;
+}
+
+.news .news-content .news-sees {
+  margin-right: 15px;
+}
+
+.news .news-content .dot-news-content {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.news .news-content .dot-news-content .dot-news {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #BFD2F8;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.news .news-content .dot-news-content .dot-news-active,
+.news .news-content .dot-news-content .dot-news:hover {
+  background-color: #1F2B6C;
+}
+/*# sourceMappingURL=home.css.map */

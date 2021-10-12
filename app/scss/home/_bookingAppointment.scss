@@ -1,0 +1,74 @@
+.booking-appointment {
+    margin-top: 130px;
+
+    #filter {
+        position: absolute;
+        z-index: 2;
+        background: #FCFEFE;
+        opacity: 0.8;
+        width: 100%;
+        height: 573px;
+    }
+
+    #booking-img {
+        position: relative;
+        z-index: 1;
+        background-image: url('/app/img/hero/Rectangle\ 33.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 573px;
+    }
+
+    .content {  
+        position: relative;
+        z-index: 3;
+        height: 573px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            @include display1;
+            color: #159EEC;
+        }
+
+        p {
+            @include body;
+            margin-right: 100px;
+        }
+
+        form {
+            .form-items {
+                background-color: #1F2B6C;
+                height: 50px;
+                color: white;
+                border: 1px solid #b3b3b3;
+                @include body;
+            }
+
+            ::placeholder {
+                color: white;
+                opacity: 1;
+            }
+
+            .text-area {
+                @include body;
+                height: 200px;
+                background-color: #1F2B6C;
+                color: white
+            }
+
+            button {
+                @include buttonText;
+                background-color: #BFD2F8;
+                height: 50px;
+                border: none;
+                border-radius: 0 0 10px 10px;
+            }
+
+        }
+    }
+
+}
