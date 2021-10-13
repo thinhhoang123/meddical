@@ -1,0 +1,37 @@
+.welcome{
+    margin: 100px 0;
+    img{
+        border-radius: 10px;
+    }
+    p{
+        @include body2;
+    }
+    .welcome-head{
+        p{
+            @include caption;
+            color: #159EEC
+        }
+        h3{
+            @include display1;
+            font-size: 3rem;
+            line-height: 50px;
+            width: 500px;
+            color: #1F2B6C;
+        }
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 40px 0;
+        li{
+            @include body2;
+            margin: 10px 0;
+        }
+        li::before {
+            content: '●';
+            color: #159EEC;
+            margin-right: 10px;
+        }
+    }
+    
+}

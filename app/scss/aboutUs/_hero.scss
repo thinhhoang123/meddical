@@ -1,0 +1,37 @@
+
+.hero-background{
+    position: relative;
+    #img-background{
+        position: absolute;
+        background-image: url('/app/img/hero/Blackdoctors 1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    #img-filter{
+        position: absolute;
+        background-color: #ffffff;
+        opacity: 0.5;
+        height: 500px;
+    }
+}
+.hero-content{
+    position: relative;
+    z-index: 2;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    p, h3{
+        color: #1F2B6C;
+    }
+    p{
+        @include title;
+        font-weight: 20;
+    }
+    h3{
+        @include display1;
+        font-size: 4rem;
+
+    }
+}
