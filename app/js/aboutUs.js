@@ -20,6 +20,7 @@ function currentQuote(numberQuote) {
     quote[numberQuote - 1].style.display = 'block';
     dotsQuote[numberQuote - 1].className += ' dot-quote-active';
 }
+
 // out doctor
 var slideIndex = 1;
 currentSlide(slideIndex);
