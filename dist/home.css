@@ -410,14 +410,14 @@ body {
 .our-services .tab button:hover,
 .our-services .tab .active {
   background-color: #1F2B6C;
-  color: white;
+  color: #BFD2F8;
 }
 
 .our-services .tab button:hover .fas,
 .our-services .tab button:hover .fad,
 .our-services .tab .active .fas,
 .our-services .tab .active .fad {
-  color: white;
+  color: #BFD2F8;
 }
 
 .our-services .tabcontent ul {

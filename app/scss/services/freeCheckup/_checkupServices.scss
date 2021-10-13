@@ -1,0 +1,73 @@
+.services{
+    margin: 100px 0;
+    .tab{
+        display: flex;
+        flex-direction: column;
+
+        border: 0.5px solid #BFD2F8;
+        border-radius: 5px;
+        .fad, .fas{
+            width: 50px;
+            color: #159EEC;
+        }
+        p{
+            @include body;
+            font-size: 1.1rem;
+        }
+        .tablinks{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            p{margin: 0;}
+        }
+        button{
+            width: 100%;
+            height: 100px;
+            padding: 30px;
+
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover,
+        .active {
+                background-color: #1F2B6C;
+                color: #BFD2F8;
+    
+                .fas,
+                .fad {
+                    color: #BFD2F8;
+                }
+        }
+        
+    }
+
+    .tabcontent{
+        width: 731px;
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+            li{
+                padding: 0;
+                margin: 20px 0;
+                font-size: 1rem;
+                @include body;
+            }
+            li::before{
+                content: '●';
+                color: #159EEC;
+                margin-right: 10px;
+            }
+        }
+        h3{
+            @include display1;
+            color: #1F2B6C;
+            margin: 30px 0;
+        }
+        p{
+            @include body;
+            margin: 20px 0;
+        }
+    }
+}
